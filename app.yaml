@@ -1,7 +1,7 @@
 ---
 - name: Test yaml file.
   hosts: all
-  user_name: sudhakara.kathi
+  user_name: NTTVisteon01
   become: true
   become_method: sudo
   - tasks:
