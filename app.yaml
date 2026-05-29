@@ -1,0 +1,9 @@
+---
+- name: Test yaml file.
+  hosts: all
+  user_name: sudhakara.kathi
+  become: true
+  become_method: sudo
+  - tasks:
+    name: Install a package
+     - yum: net-tools
